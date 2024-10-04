@@ -6,7 +6,6 @@
     padding: 10px 5px;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    cursor: pointer;
     position: relative;
 }
 
@@ -37,9 +36,37 @@
     border-radius: 5px;
 }
 
+.total-price-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+    font-size: 20px;
+}
+
 .food-card-price {
-    font-size: 18px;
     font-weight: bold;
+}
+
+.card-quantity-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-bottom: 30px;
+
+}
+
+.card-quantity-icon {
+    height: 30px;
+    cursor: pointer;
+}
+
+.card-quantity {
+    font-size: 25px;
+    color: blue;
 }
 
 .card-button {
@@ -58,4 +85,10 @@
 .card-button:hover {
     background-color: darkblue;
 
+}
+
+.card-msg {
+    text-align: center;
+    color: red;
+    font-weight: bold;
 }
